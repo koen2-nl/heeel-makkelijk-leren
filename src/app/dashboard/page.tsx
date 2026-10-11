@@ -1,6 +1,13 @@
-import { sampleGoals, sampleStats } from '@/data/seed';
-import { GoalProgress } from '@/components/ui/GoalProgress';
-import { StatCard } from '@/components/ui/StatCard';
+export default function DashboardPage() {
+  return (
+    <div className="space-y-8">
+      <div>
+        <p>Dashboard</p>
+        <h1>Welkom terug</h1>
+      </div>
+    </div>
+  );
+}
 
 export default function DashboardPage() {
   return (
